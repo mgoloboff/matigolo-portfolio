@@ -21,7 +21,7 @@ const projects = [
     slug: "agentic-copilot",
     title: "Agentic Co-pilot",
     description:
-      "An AI-powered co-pilot that turns complex data into interactive visuals, accelerating decision-making and driving results.",
+      "Designed an AI Agentic Co-Pilot to Automate Admin and Drive Sales Revenue.",
     tag: "AI Product · Agent UX",
     status: "progress" as const,
   },

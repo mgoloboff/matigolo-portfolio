@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Toolbox icon" clip-path="url(#clip0_0_4)">
+<rect id="Offset tile" x="1.21622" y="1.21622" width="78.6487" height="78.6487" rx="15" fill="#dcc4b0" stroke="#181510" stroke-width="0.27027"/>
+<rect id="Front tile" x="0.135135" y="0.135135" width="76.4865" height="76.4865" rx="15" fill="#fdf8f2" stroke="#181510" stroke-width="0.27027"/>
+<circle id="Outer ring" cx="38.459" cy="37.9981" r="21.9595" fill="#c9bfb2" stroke="#181510" stroke-width="0.405405"/>
+<circle id="Middle ring" cx="38.4589" cy="38.5429" r="15.473" fill="white" stroke="#181510" stroke-width="0.405405"/>
+<circle id="Inner ring" cx="38.4587" cy="38.5408" r="8.98649" fill="#c9bfb2" stroke="#181510" stroke-width="0.405405"/>
+<circle id="Bullseye" cx="38.4596" cy="38.5416" r="3.58108" fill="white" stroke="#181510" stroke-width="0.405405"/>
+<rect id="Top marker" x="37.5816" y="11.7183" width="1.75676" height="7.16216" rx="0.878378" fill="#c9bfb2" stroke="#181510" stroke-width="0.405405"/>
+<rect id="Bottom marker" x="37.5816" y="58.2027" width="1.75676" height="7.16216" rx="0.878378" fill="#c9bfb2" stroke="#181510" stroke-width="0.405405"/>
+<rect id="Left marker" x="11.6343" y="37.6636" width="7.16216" height="1.75676" rx="0.878378" fill="#c9bfb2" stroke="#181510" stroke-width="0.405405"/>
+<rect id="Right marker" x="58.1207" y="37.6636" width="7.16216" height="1.75676" rx="0.878378" fill="#c9bfb2" stroke="#181510" stroke-width="0.405405"/>
+</g>
+<defs>
+<clipPath id="clip0_0_4">
+<rect width="80" height="80" fill="white"/>
+</clipPath>
+</defs>
+</svg>

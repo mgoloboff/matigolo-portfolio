@@ -22,12 +22,13 @@ export default function AgenticCopilot() {
           Agentic Co-pilot
         </h1>
         <p className="text-[18px] text-[#6b6b6b] leading-relaxed max-w-2xl">
-          Coming soon — currently in design.
+          Designed an AI Agentic Co-Pilot to Automate Admin and Drive Sales Revenue.
         </p>
       </header>
 
-      <div className="w-full aspect-video bg-[#f2f2ef] rounded-2xl flex items-center justify-center">
-        <p className="text-[14px] text-[#6b6b6b] font-medium">In progress</p>
+      <div className="w-full aspect-video bg-[#f2f2ef] rounded-2xl flex flex-col items-center justify-center gap-3">
+        <div className="w-2 h-2 rounded-full bg-[#d4a853] animate-pulse" />
+        <p className="text-[14px] text-[#6b6b6b] font-medium">Case study in progress</p>
       </div>
 
       <div className="mt-20 pt-8 border-t border-[#e8e8e4]">
