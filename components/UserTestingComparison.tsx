@@ -40,7 +40,7 @@ function WarningIcon({ color }: { color: string }) {
   );
 }
 
-function FaceIcon({ color, happy }: { color: string; happy: boolean }) {
+function FaceIcon({ color, happy = false }: { color: string; happy?: boolean }) {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden>
       <circle cx="12" cy="12" r="10" stroke={color} strokeWidth="2" />

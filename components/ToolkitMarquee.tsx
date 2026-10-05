@@ -11,7 +11,7 @@ const tools = [
 ];
 
 function ToolIcon({ tool }: { tool: (typeof tools)[number] }) {
-  const size = tool.size ?? "52px";
+  const size = "52px";
   return (
     <div className="flex-shrink-0 w-[80px] h-[80px] rounded-2xl bg-[#e8e4f0] flex items-center justify-center mx-3">
       <img
