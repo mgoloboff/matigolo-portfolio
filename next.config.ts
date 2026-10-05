@@ -4,7 +4,11 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/portfolio",
   images: {
-    unoptimized: true,
+    loader: "custom",
+    loaderFile: "./image-loader.ts",
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/portfolio",
   },
 };
 

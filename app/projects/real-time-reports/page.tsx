@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   title: "Real-Time Report System · Matias Goloboff",
 };
 
+const B = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 function VideoBlock({
   title,
   description,
@@ -32,7 +34,7 @@ function VideoBlock({
         preload="auto"
         className="w-full h-auto rounded-[18px] border-2 border-[var(--fg)]"
       >
-        <source src={src} type="video/mp4" />
+        <source src={`${B}${src}`} type="video/mp4" />
       </video>
     </div>
   );
