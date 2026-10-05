@@ -8,6 +8,7 @@ const tools = [
   { name: "Slack", icon: "/tool-slack.png" },
   { name: "Wispr", icon: "/tool-wispr.png" },
   { name: "GitHub", icon: "/tool-github-icon.svg" },
+  { name: "Claude", icon: "/tool-claude.png" },
   { name: "Confluence", icon: "/tool-confluence.png" },
   { name: "Mixpanel", icon: "/tool-mixpanel-icon.svg" },
 ];
@@ -54,6 +55,7 @@ export default function ToolkitMarquee() {
 
       <div className="py-5 overflow-hidden">
         <div className="animate-marquee-tools flex items-center whitespace-nowrap">
+          <ToolTrack />
           <ToolTrack />
           <ToolTrack />
         </div>

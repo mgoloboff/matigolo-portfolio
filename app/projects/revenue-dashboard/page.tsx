@@ -325,10 +325,10 @@ export default function RevenueDashboard() {
         <div className="mt-[56px]" style={{ borderTop: "1px solid rgba(24,21,16,.18)", paddingTop: "24px" }}>
           <div className="font-mono text-[11px] tracking-[0.04em] text-[var(--muted)] mb-[5px]">Next project</div>
           <Link
-            href="/projects/agentic-copilot"
+            href="/projects/real-time-reports"
             className="font-display font-extrabold text-[22px] tracking-[-0.02em] text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
           >
-            Agentic Co-pilot →
+            Real-Time Report System →
           </Link>
         </div>
       </div>

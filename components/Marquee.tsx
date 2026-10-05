@@ -43,6 +43,7 @@ export default function Marquee() {
       <div className="animate-marquee flex items-center whitespace-nowrap">
         <MarqueeTrack />
         <MarqueeTrack />
+        <MarqueeTrack />
       </div>
     </div>
   );

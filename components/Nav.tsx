@@ -14,7 +14,7 @@ export default function Nav() {
 
         <div className="flex items-center gap-6">
           <Link
-            href="#work"
+            href="/"
             className="font-mono text-[13px] text-[var(--fg)] hover:opacity-60 transition-opacity"
           >
             work
