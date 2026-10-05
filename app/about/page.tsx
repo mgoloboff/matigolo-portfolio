@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -58,10 +59,11 @@ export default function About() {
           {/* Photo */}
           <div className="flex flex-col gap-6">
             <div className="w-full aspect-[3/4] bg-[#e8e8e4] rounded-2xl overflow-hidden relative">
-              <img
+              <Image
                 src="/photo.jpg"
                 alt="Matias Goloboff"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
                 style={{ objectPosition: "center 15%" }}
               />
             </div>

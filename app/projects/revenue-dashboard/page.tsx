@@ -162,7 +162,7 @@ export default function RevenueDashboard() {
               { icon: "/icon-chart-simple.svg", title: "Low data fluency", desc: "They need simple but accurate data" },
             ].map(({ icon, title, desc }) => (
               <div key={title} className="flex flex-col gap-4">
-                <img src={icon} alt="" width={80} height={80} />
+                <Image src={icon} alt="" width={80} height={80} />
                 <div className="flex flex-col gap-2">
                   <p className="font-display font-bold text-[18px] text-[var(--fg)]">{title}</p>
                   <p className="text-[16px] leading-[1.62] text-[#3a352c]">{desc}</p>
@@ -175,9 +175,10 @@ export default function RevenueDashboard() {
             Competitive Analysis
           </p>
           <div className="overflow-hidden mb-6">
-            <img
+            <Image
               src="/revenue-dashboard-competitive.png"
               alt="Competitive analysis – Google Analytics, Power BI, Browsi, mixpanel, R89"
+              width={1600} height={800}
               className="w-full h-auto block"
               style={{ mixBlendMode: "multiply", transform: "scale(1.015)", transformOrigin: "center" }}
             />
@@ -244,9 +245,10 @@ export default function RevenueDashboard() {
                 We used summary cards to highlight top priority data — Revenue by Time (Yesterday, MTD, Previous Month).
               </p>
               <div className="w-full rounded-[18px] overflow-hidden">
-                <img
+                <Image
                   src="/revenue-dashboard-kpi-cards.png"
                   alt="Revenue Dashboard – Quick-glance KPI cards"
+                  width={1600} height={900}
                   className="w-full h-auto block"
                 />
               </div>
@@ -258,9 +260,10 @@ export default function RevenueDashboard() {
                 We combined Sessions and Revenue in a single chart to help visualize patterns and performance trends quickly.
               </p>
               <div className="w-full rounded-[18px] overflow-hidden">
-                <img
+                <Image
                   src="/revenue-dashboard-chart-overlay.png"
                   alt="Revenue Dashboard – Sessions and Revenue overlay chart"
+                  width={1600} height={900}
                   className="w-full h-auto block"
                 />
               </div>
@@ -272,9 +275,10 @@ export default function RevenueDashboard() {
                 Revenue by OS, Device, and by Country — enabling users to dig deeper without losing context.
               </p>
               <div className="w-full rounded-[18px] overflow-hidden">
-                <img
+                <Image
                   src="/revenue-dashboard-breakdown.png"
                   alt="Revenue Dashboard – Contextual breakdowns by OS, Device, Country"
+                  width={1600} height={900}
                   className="w-full h-auto block"
                 />
               </div>
@@ -290,9 +294,10 @@ export default function RevenueDashboard() {
           </p>
 
           <div className="w-full">
-            <img
+            <Image
               src="/revenue-dashboard-mobile-annotated.webp"
               alt="Revenue Overview Dashboard – mobile adaptive design with annotations"
+              width={1600} height={1200}
               className="w-full h-auto block"
             />
           </div>

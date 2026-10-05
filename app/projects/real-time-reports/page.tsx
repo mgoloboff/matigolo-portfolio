@@ -153,7 +153,7 @@ export default function RealTimeReports() {
               },
             ].map((item) => (
               <div key={item.title} className="flex flex-col gap-4">
-                <img src={item.icon} alt="" width={80} height={80} />
+                <Image src={item.icon} alt="" width={80} height={80} />
                 <div className="flex flex-col gap-2">
                   <p className="font-display font-bold text-[18px] text-[var(--fg)]">{item.title}</p>
                   <p className="text-[16px] leading-[1.62] text-[#3a352c]">{item.text}</p>
@@ -210,7 +210,7 @@ export default function RealTimeReports() {
               ))}
             </div>
             <div className="shrink-0 w-full md:w-[380px] rounded-[18px] overflow-hidden">
-              <img src="/insights-image.png" alt="Survey insights heatmap" className="w-full h-auto" />
+              <Image src="/insights-image.png" alt="Survey insights heatmap" width={760} height={600} className="w-full h-auto" />
             </div>
           </div>
 
@@ -299,9 +299,10 @@ export default function RealTimeReports() {
             <strong className="font-semibold">v2 with dark mode.</strong>
           </p>
           <div className="w-full rounded-[18px] overflow-hidden my-10">
-            <img
+            <Image
               src="/real-time-reports-dark-mode.png"
               alt="Real-Time Reports v2 – dark mode"
+              width={1920} height={1080}
               className="w-full h-auto block"
             />
           </div>

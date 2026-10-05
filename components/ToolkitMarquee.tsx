@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const tools = [
   { name: "Figma", icon: "/tool-figma.png" },
   { name: "Cursor", icon: "/tool-cursor.png" },
@@ -14,10 +16,11 @@ function ToolIcon({ tool }: { tool: (typeof tools)[number] }) {
   const size = "52px";
   return (
     <div className="flex-shrink-0 w-[80px] h-[80px] rounded-2xl bg-[#e8e4f0] flex items-center justify-center mx-3">
-      <img
+      <Image
         src={tool.icon}
         alt={tool.name}
-        style={{ width: size, height: size }}
+        width={52}
+        height={52}
         className="object-contain rounded-xl"
       />
     </div>
