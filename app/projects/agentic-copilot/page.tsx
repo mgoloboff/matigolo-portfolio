@@ -18,7 +18,7 @@ export default function AgenticCopilot() {
         <p className="text-[12px] uppercase tracking-widest text-[#aaa] mb-3">
           AI Product · Agent UX
         </p>
-        <h1 className="text-[36px] md:text-[48px] font-semibold leading-tight tracking-tight text-[#111111] mb-4">
+        <h1 className="font-heading text-[36px] md:text-[48px] font-semibold leading-tight tracking-tight text-[#111111] mb-4">
           Agentic Co-pilot
         </h1>
         <p className="text-[18px] text-[#6b6b6b] leading-relaxed max-w-2xl">
