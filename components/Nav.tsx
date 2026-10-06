@@ -26,7 +26,8 @@ export default function Nav() {
             about
           </Link>
           <a
-            href="/resume.pdf"
+            href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/resume.pdf`}
+            download="resume-matias"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-[13px] text-[var(--fg)] hover:opacity-60 transition-opacity"

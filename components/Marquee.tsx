@@ -1,24 +1,25 @@
 const skills = [
+  "Full-cycle design",
   "User empathy",
-  "Critical thinking",
-  "Design to dev handoff",
-  "Prompt-Driven Workflows",
+  "AI-native",
+  "Research-led",
+  "Behavioral design",
+  "DesignOps",
 ];
 
 const diamondColors = [
   "text-[var(--accent)]",
   "text-[var(--highlight)]",
   "text-[var(--green)]",
-  "text-[var(--accent)]",
 ];
 
 const diamondStyle = { fontFamily: "system-ui, Arial, sans-serif" };
 
 function MarqueeTrack() {
   return (
-    <>
+    <div className="flex items-center flex-shrink-0">
       {skills.map((skill, i) => (
-        <span key={i} className="inline-flex items-center">
+        <span key={i} className="inline-flex items-center flex-shrink-0">
           <span
             className={`text-[22px] mx-4 ${diamondColors[i % diamondColors.length]}`}
             style={diamondStyle}
@@ -30,7 +31,7 @@ function MarqueeTrack() {
           </span>
         </span>
       ))}
-    </>
+    </div>
   );
 }
 

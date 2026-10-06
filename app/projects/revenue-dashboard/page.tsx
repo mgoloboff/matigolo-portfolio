@@ -1,9 +1,10 @@
 import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import OtherProjects from "@/components/OtherProjects";
 
 export const metadata: Metadata = {
   title: "Revenue Overview Dashboard · Matias Goloboff",
@@ -91,10 +92,10 @@ export default function RevenueDashboard() {
         <div className="mt-[30px] max-w-[999px] w-full">
           <div className="relative overflow-hidden w-full rounded-[18px]" style={{ aspectRatio: "1500 / 1160" }}>
             <Image
-              src="/revenue-dashboard-hero.png"
+              src="/revenue-dashboard-hero.webp"
               alt="Revenue Overview Dashboard – desktop and mobile views"
-              width={1500}
-              height={1382}
+              width={2000}
+              height={1842}
               priority
               className="w-full h-auto"
               style={{
@@ -321,16 +322,7 @@ export default function RevenueDashboard() {
           </ul>
         </CaseSection>
 
-        {/* Next project */}
-        <div className="mt-[56px]" style={{ borderTop: "1px solid rgba(24,21,16,.18)", paddingTop: "24px" }}>
-          <div className="font-mono text-[11px] tracking-[0.04em] text-[var(--muted)] mb-[5px]">Next project</div>
-          <Link
-            href="/projects/real-time-reports"
-            className="font-display font-extrabold text-[22px] tracking-[-0.02em] text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
-          >
-            Real-Time Report System →
-          </Link>
-        </div>
+        <OtherProjects currentSlug="revenue-dashboard" />
       </div>
 
       <Footer />

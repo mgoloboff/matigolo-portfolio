@@ -41,6 +41,8 @@ body {
   animation: marquee 18s linear infinite;
   will-change: transform;
   width: max-content;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .animate-marquee-tools {
