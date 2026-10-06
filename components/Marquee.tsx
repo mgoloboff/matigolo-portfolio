@@ -4,7 +4,7 @@ const skills = [
   "AI-native",
   "Research-led",
   "Behavioral design",
-  "DesignOps",
+  "UX Strategy",
 ];
 
 const diamondColors = [
